@@ -5,7 +5,7 @@
 
 > ✒ Data Security and Artificial Intelligence Security Laboratory LaTeX Beamer Template
 
-## Preview
+## Showcase
 
 <table>
   <tr>
@@ -21,9 +21,10 @@
 ## Features
 
 - Based on the default `beamer` theme, with few overwrites style changes
-- Uses Fira Mono as monospace font and Fira Math as Math font
+- Uses Fira Mono as monospace font and [Fira Math](https://firamath.github.io/) as math font
 - Different background for cover page and inner frames
 - High resolution BIT logo
+- Integrates `fontawesome` high quality web svg icons for direct usage (See: [fontawesome – Font containing web-related icons](http://mirrors.ctan.org/fonts/fontawesome/doc/fontawesome.pdf) for full list of icons available.)
 
 ## Compilation
 
@@ -33,7 +34,7 @@ latexmk -synctex=1 -interaction=nonstopmode -file-line-error -xelatex main.tex
 
 ## View and present
 
-Best used with [Adobe Reader](https://get.adobe.com/reader). Go into fullscreen mode `Ctrl + L` for presentation.
+Best used with [Adobe Reader](https://get.adobe.com/reader). Go into fullscreen mode (`Ctrl + L`) for presentation.
 
 ![](https://i.loli.net/2020/04/20/c9dZyXutQqxHPrv.png)
 

@@ -1,5 +1,5 @@
-[![Latexmk](https://badgen.net/badge/compiler/Latexmk?color=blue)](https://mg.readthedocs.io/latexmk.html)
-[![License](https://badgen.net/github/license/spencerwooo/BIThesis?color=008080)](./LICENSE)
+[![Latexmk](https://badgen.net/badge/compiler/Latexmk?labelColor=0d305a)](https://mg.readthedocs.io/latexmk.html)
+[![License](https://badgen.net/github/license/spencerwooo/BIThesis?color=008080&labelColor=0d305a)](./LICENSE)
 
 # DSAIS Lab Beamer Template
 
@@ -17,6 +17,13 @@
     <td><img src="https://i.loli.net/2020/04/20/HnyK3LqdYDbpSP4.png" alt="Chapter 3"></td>
   </tr>
 </table>
+
+## Features
+
+- Based on the default `beamer` theme, with few overwrites style changes
+- Uses Fira Mono as monospace font and Fira Math as Math font
+- Different background for cover page and inner frames
+- High resolution BIT logo
 
 ## Compilation
 

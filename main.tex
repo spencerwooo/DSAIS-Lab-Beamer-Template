@@ -63,7 +63,7 @@
 \def\titledate{\leavevmode\hbox{\the\year\ \twodigits\month\ \twodigits\day\ }}
 \def\twodigits#1{\ifnum#1<10 0\fi\the#1}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
 % 正文开始
 
 \title{\textbf{\texorpdfstring{\zihao{3}\titledate 智能对抗组会}}}
@@ -76,10 +76,11 @@
 
 \begin{frame}
   \frametitle{\faCode\, 第一部分的一个大标题}
+  {\color{gray}{\textbf{第一部分}\, 第一个实验的实验结果}}\\
+  \vspace*{0.6cm}
   \centering
-  \textbf{第一部分}\, 第一部分\\
-  \vspace*{0.2cm}
-  \includegraphics[width=0.6\textwidth]{plots/resnet}
+  \includegraphics[width=0.5\textwidth]{plots/resnet}\\
+  \texttt{\small\color{BITGreen}{\faCheck\ 100\% fooling rate}}
 \end{frame}
 
 \begin{frame}
@@ -103,14 +104,16 @@
 
 \begin{frame}
   \frametitle{\faTasks\, 最后总结和计划}
-  之后的任务重点：
+  \textbf{一个相关的公式：}
+  \begin{equation*}
+    x_{adv} = x + \varepsilon*\text{sign}(\nabla_x\ J(\theta, x, y))
+  \end{equation*}
 
-  \vspace*{0.2cm}
+  \textbf{之后的任务重点：}
   \begin{itemize}
-    \item 任务的第一个部分
-    \item 任务的第二个部分
-    \item 第一实验数据
-    \item 第二实验数据
+    \item 完成某某任务的某某阶段，记录分析某阶段性成果
+    \item 整理、收集并分析第一实验数据
+    \item 对第二实验进行重新构思、规划和设计
   \end{itemize}
 \end{frame}
 \end{document}

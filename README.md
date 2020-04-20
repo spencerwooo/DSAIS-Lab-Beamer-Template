@@ -10,11 +10,11 @@
 <table>
   <tr>
     <th><img src="https://i.loli.net/2020/04/20/YjxEs6OHWUFLVhm.png" alt="Cover"></th>
-    <th><img src="https://i.loli.net/2020/04/20/ZSMLR2d7q5psNOh.png" alt="Chapter 1"></th>
+    <th><img src="https://i.loli.net/2020/04/20/deKG5txjC1f6XQF.png" alt="Chapter 1"></th>
   </tr>
   <tr>
     <td><img src="https://i.loli.net/2020/04/20/p6Ku97bUTmwAqF4.png" alt="Chapter 2"></td>
-    <td><img src="https://i.loli.net/2020/04/20/HnyK3LqdYDbpSP4.png" alt="Chapter 3"></td>
+    <td><img src="https://i.loli.net/2020/04/20/2iv17xeUaOhfygs.png" alt="Chapter 3"></td>
   </tr>
 </table>
 
